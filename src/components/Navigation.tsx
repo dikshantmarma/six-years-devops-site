@@ -62,7 +62,7 @@ export const Navigation = () => {
             <ThemeToggle />
             <Button 
               onClick={() => scrollToSection('contact')}
-              variant="hero"
+              variant="black"
               size="sm"
             >
               Contact
