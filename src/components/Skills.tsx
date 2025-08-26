@@ -6,32 +6,32 @@ export const Skills = () => {
     {
       title: "Cloud Platforms",
       icon: "☁️",
-      skills: ["AWS", "Google Cloud", "Azure", "DigitalOcean", "Linode"]
+      skills: ["AWS", "Azure", "GCP"]
     },
     {
-      title: "Containerization",
+      title: "Containerization & Orchestration",
       icon: "📦",
-      skills: ["Docker", "Kubernetes", "Podman", "Docker Compose", "Helm"]
+      skills: ["Docker", "Kubernetes", "Helm", "Istio"]
     },
     {
-      title: "CI/CD Tools",
+      title: "CI/CD & Automation",
       icon: "🔄",
-      skills: ["Jenkins", "GitLab CI", "GitHub Actions", "Azure DevOps", "CircleCI"]
+      skills: ["Jenkins", "GitHub Actions", "Spinnaker", "Bitbucket Pipelines", "AWS DevOps", "Codefresh"]
     },
     {
       title: "Infrastructure as Code",
       icon: "🏗️",
-      skills: ["Terraform", "Ansible", "CloudFormation", "Pulumi", "Chef"]
+      skills: ["Terraform", "CloudFormation", "Shell", "Python"]
     },
     {
-      title: "Monitoring & Logging",
+      title: "Monitoring & Observability",
       icon: "📊",
-      skills: ["Prometheus", "Grafana", "ELK Stack", "Datadog", "New Relic"]
+      skills: ["Prometheus", "Grafana", "Loki", "Mimir", "Thanos", "CloudWatch", "Alertmanager"]
     },
     {
-      title: "Programming & Scripting",
-      icon: "💻",
-      skills: ["Python", "Bash", "Go", "JavaScript", "PowerShell"]
+      title: "Databases & Serverless",
+      icon: "💾",
+      skills: ["MongoDB", "PostgreSQL", "Lambda", "Cloud Functions", "Cloud Run"]
     }
   ];
 
@@ -86,9 +86,9 @@ export const Skills = () => {
           </h3>
           <div className="flex flex-wrap gap-3 justify-center max-w-4xl mx-auto">
             {[
-              "Microservices Architecture", "Service Mesh", "API Gateway", 
-              "Database Management", "Security Best Practices", "Disaster Recovery",
-              "Performance Optimization", "Cost Management", "Team Leadership"
+              "Version Control (GitHub, Bitbucket)", "Collaboration (Jira, Linear)", "Cloud Logging", 
+              "Operating Systems (Linux Ubuntu, RedHat)", "SRE Principles", "Security Compliance (SOC 2, HIPAA)",
+              "Cost Optimization", "Disaster Recovery", "Team Leadership"
             ].map((skill) => (
               <Badge 
                 key={skill}

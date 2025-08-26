@@ -15,24 +15,24 @@ export const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate DevOps Engineer with <strong>6 years of hands-on experience</strong> in 
-                designing, implementing, and maintaining scalable cloud infrastructure. I specialize in 
-                automating deployment processes and creating robust CI/CD pipelines.
+                I'm a <strong>CKA-certified DevOps/SRE Engineer</strong> with hands-on experience designing 
+                scalable, cloud-native infrastructure across AWS, GCP, and Azure. I specialize in Kubernetes, 
+                Terraform, GitHub Actions, and serverless architectures.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                My expertise spans across cloud platforms, containerization, infrastructure as code, 
-                monitoring, and security. I'm committed to bridging the gap between development and 
-                operations teams to enable faster, more reliable software delivery.
+                I have a proven track record in optimizing CI/CD pipelines, observability, and cost-efficient 
+                deployments. Strong focus on SRE principles, system reliability, and security compliance 
+                including SOC 2 and HIPAA standards.
               </p>
               <div className="flex flex-wrap gap-3">
                 <span className="px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-medium">
-                  Cloud Architecture
+                  SRE Principles
                 </span>
                 <span className="px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-medium">
-                  CI/CD Automation
+                  Kubernetes Expert
                 </span>
                 <span className="px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-medium">
-                  Infrastructure as Code
+                  CKA Certified
                 </span>
               </div>
             </div>
@@ -40,7 +40,7 @@ export const About = () => {
             <Card className="p-8 card-gradient shadow-medium hover-lift">
               <div className="space-y-6">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-accent mb-2">6+</div>
+                  <div className="text-4xl font-bold text-accent mb-2">4+</div>
                   <div className="text-muted-foreground">Years Experience</div>
                 </div>
                 <div className="grid grid-cols-2 gap-6 text-center">

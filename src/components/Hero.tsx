@@ -18,12 +18,12 @@ export const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            DevOps Engineer
-            <span className="block text-accent glow-accent">& Cloud Architect</span>
+            Dikshant Rai
+            <span className="block text-accent glow-accent">DevOps/SRE Engineer</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">
-            6 years of experience building scalable infrastructure, automating deployments, 
-            and creating robust CI/CD pipelines that empower teams to ship faster and more reliably.
+            CKA-certified engineer specializing in scalable, cloud-native infrastructure across AWS, GCP, and Azure. 
+            Proven expertise in Kubernetes, CI/CD optimization, and SRE principles.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

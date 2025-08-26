@@ -4,43 +4,63 @@ import { Badge } from "@/components/ui/badge";
 export const Experience = () => {
   const experiences = [
     {
-      period: "2022 - Present",
-      role: "Senior DevOps Engineer",
-      company: "TechCorp Solutions",
-      description: "Lead DevOps initiatives for cloud-native applications, managing infrastructure for 50+ microservices serving millions of users daily.",
+      period: "Aug 2023 - Present",
+      role: "SRE Engineer",
+      company: "Infracloud Technologies Pvt Ltd",
+      description: "Leading site reliability engineering initiatives, managing Kubernetes infrastructure, and implementing advanced observability solutions.",
       achievements: [
-        "Reduced deployment time from 2 hours to 15 minutes",
-        "Implemented GitOps workflow with ArgoCD",
-        "Achieved 99.99% uptime for critical services",
-        "Led migration to Kubernetes from legacy infrastructure"
+        "Designed and administered Kubernetes clusters on GKE, executing seamless upgrades for zero-downtime deployments",
+        "Implemented scalable, cost-efficient infrastructure on Google Cloud Run for code review platform",
+        "Designed centralized CI/CD pipeline using GitHub Actions and ArgoCD, reducing developer build times by 50%",
+        "Built comprehensive monitoring stack (Prometheus, Grafana, Loki, Alertmanager) reducing incident detection time",
+        "Optimized GKE cluster scaling policies and resource requests, reducing compute costs by ~30%",
+        "Implemented Terraform modules for dynamic infrastructure provisioning, reducing cloud waste by ~25%",
+        "Implemented OAuth-based authentication for Grafana, ensuring secure and scalable access control",
+        "Enhanced database performance and resilience for MongoDB and PostgreSQL clusters"
       ],
-      technologies: ["Kubernetes", "AWS", "Terraform", "Jenkins", "Prometheus"]
+      technologies: ["Kubernetes", "GCP", "Terraform", "GitHub Actions", "ArgoCD", "Prometheus", "Grafana"]
     },
     {
-      period: "2020 - 2022",
+      period: "Mar 2023 - Aug 2023",
       role: "DevOps Engineer",
-      company: "CloudFirst Inc.",
-      description: "Designed and implemented CI/CD pipelines, automated infrastructure provisioning, and established monitoring solutions.",
+      company: "Reshamandi",
+      description: "Led migration of Kubernetes workloads from AWS to Azure AKS, ensuring consistent deployment standards and implementing advanced monitoring solutions.",
       achievements: [
-        "Built automated testing pipeline reducing bugs by 60%",
-        "Implemented Infrastructure as Code for 100+ environments",
-        "Created disaster recovery procedures",
-        "Mentored junior engineers in DevOps practices"
+        "Led migration of Kubernetes workloads from AWS to Azure AKS with zero data loss",
+        "Built and deployed secure HashiCorp Vault cluster for dynamic secrets management",
+        "Established advanced observability pipeline with Grafana, Mimir, and Loki for real-time monitoring",
+        "Automated entire AKS infrastructure deployment using Terraform with CI/CD integration",
+        "Implemented Helm-based deployment pipelines using Jenkins and Spinnaker for application rollouts"
       ],
-      technologies: ["Docker", "GitLab CI", "Ansible", "ELK Stack", "Grafana"]
+      technologies: ["Azure AKS", "Terraform", "HashiCorp Vault", "Grafana", "Helm", "Jenkins", "Spinnaker"]
     },
     {
-      period: "2019 - 2020",
-      role: "Cloud Infrastructure Engineer",
-      company: "DataFlow Systems",
-      description: "Focused on cloud migration strategies and infrastructure optimization for high-traffic applications.",
+      period: "Mar 2022 - Feb 2023",
+      role: "DevOps Engineer", 
+      company: "Stringventures.ai",
+      description: "Managed multi-service deployments and designed scalable AWS infrastructure with focus on high availability and security.",
       achievements: [
-        "Successfully migrated legacy systems to AWS",
-        "Reduced infrastructure costs by 40%",
-        "Implemented auto-scaling solutions",
-        "Established security best practices"
+        "Managed multi-service deployments (Node, Go, Django, React) using Docker and Kubernetes for high availability",
+        "Designed scalable AWS infrastructure using CloudFormation, VPC, EC2, ALB with auto-scaling and secure networking",
+        "Deployed centralized monitoring with CloudWatch, Prometheus, and Grafana to ensure SLA adherence",
+        "Configured global content delivery using AWS CloudFront and Bunny-CDN with AWS MemoryDB",
+        "Automated deployments via Bitbucket Pipelines and AWS CodePipeline for rollback and multi-environment support",
+        "Delivered video streaming platforms using AWS IVS, MediaConvert, and SES integration"
       ],
-      technologies: ["AWS", "Python", "CloudFormation", "Lambda", "RDS"]
+      technologies: ["AWS", "Docker", "Kubernetes", "CloudFormation", "Prometheus", "CloudWatch", "Bitbucket"]
+    },
+    {
+      period: "Aug 2019 - Feb 2022",
+      role: "Monitoring Team Member",
+      company: "SITAR, DRDO",
+      description: "Maintained critical government infrastructure with focus on repository management, CI/CD pipelines, and containerized environments.",
+      achievements: [
+        "Maintained GitHub and Bitbucket repositories with access policies and automated housekeeping scripts",
+        "Built Jenkins pipelines for multi-stage deployments across DEV and QA environments",
+        "Managed Docker-based Kubernetes environments to support containerized testing and deployment flows",
+        "Used AWS CloudFormation to provision EC2, ELB, IAM, and RDS resources with alerting for early fault detection"
+      ],
+      technologies: ["Jenkins", "GitHub", "Bitbucket", "Docker", "Kubernetes", "AWS", "CloudFormation"]
     }
   ];
 

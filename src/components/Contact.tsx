@@ -8,25 +8,25 @@ export const Contact = () => {
     {
       icon: "📧",
       title: "Email",
-      value: "devops.engineer@email.com",
-      link: "mailto:devops.engineer@email.com"
+      value: "raidikshant2@gmail.com",
+      link: "mailto:raidikshant2@gmail.com"
     },
     {
       icon: "💼",
       title: "LinkedIn",
-      value: "linkedin.com/in/devops-engineer",
-      link: "https://linkedin.com/in/devops-engineer"
+      value: "linkedin.com/in/dikshant-rai",
+      link: "https://linkedin.com/in/dikshant-rai"
     },
     {
-      icon: "🐙",
-      title: "GitHub",
-      value: "github.com/devops-engineer",
-      link: "https://github.com/devops-engineer"
+      icon: "📱",
+      title: "Phone",
+      value: "+91 9971071415",
+      link: "tel:+919971071415"
     },
     {
       icon: "📍",
       title: "Location",
-      value: "Remote / San Francisco, CA",
+      value: "Ghaziabad, India",
       link: null
     }
   ];
