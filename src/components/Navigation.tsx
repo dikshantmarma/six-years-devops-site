@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "./ThemeToggle";
 import { useState, useEffect } from "react";
 
 export const Navigation = () => {
@@ -33,7 +34,7 @@ export const Navigation = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             <button 
               onClick={() => scrollToSection('about')}
               className="text-foreground hover:text-accent transition-smooth font-medium"
@@ -58,17 +59,19 @@ export const Navigation = () => {
             >
               Projects
             </button>
+            <ThemeToggle />
             <Button 
               onClick={() => scrollToSection('contact')}
+              variant="hero"
               size="sm"
-              className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium"
             >
               Contact
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center gap-2">
+            <ThemeToggle />
             <Button 
               variant="ghost" 
               size="sm"

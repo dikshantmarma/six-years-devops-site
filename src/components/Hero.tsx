@@ -28,15 +28,15 @@ export const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg" 
-              variant="default"
-              className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-4 shadow-glow hover-lift"
+              variant="hero"
+              className="font-semibold px-8 py-4 hover-lift"
             >
               View My Work
             </Button>
             <Button 
               size="lg" 
-              variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 hover-lift"
+              variant="hero-outline"
+              className="font-semibold px-8 py-4 hover-lift"
             >
               Download CV
             </Button>
