@@ -48,12 +48,6 @@ export const Footer = () => {
             <h4 className="font-semibold mb-4">Let's Connect</h4>
             <div className="space-y-2">
               <a 
-                href="mailto:devops.engineer@email.com" 
-                className="block text-primary-foreground/80 hover:text-accent transition-smooth"
-              >
-                📧 devops.engineer@email.com
-              </a>
-              <a 
                 href="https://linkedin.com/in/devops-engineer" 
                 target="_blank" 
                 rel="noopener noreferrer"
