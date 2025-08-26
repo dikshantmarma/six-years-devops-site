@@ -6,22 +6,22 @@ import { Textarea } from "@/components/ui/textarea";
 export const Contact = () => {
   const contactInfo = [
     {
-      icon: "📧",
-      title: "Email",
-      value: "raidikshant2@gmail.com",
-      link: "mailto:raidikshant2@gmail.com"
-    },
-    {
       icon: "💼",
       title: "LinkedIn",
       value: "linkedin.com/in/dikshant-rai",
       link: "https://linkedin.com/in/dikshant-rai"
     },
     {
-      icon: "📱",
-      title: "Phone",
-      value: "+91 9971071415",
-      link: "tel:+919971071415"
+      icon: "🌐",
+      title: "Website",
+      value: "techwithdikshant.com",
+      link: "https://techwithdikshant.com"
+    },
+    {
+      icon: "💻",
+      title: "GitHub",
+      value: "github.com/dikshant-devops",
+      link: "https://github.com/dikshant-devops"
     },
     {
       icon: "📍",
